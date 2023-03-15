@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.box_data {
+  height: auto;
+  width: 100%;
+  background-color: #f4c531;
+}
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.center {
+  height: 93vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.body_container {
+  height: 80vh;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box {
+  height: 120px;
+  width: 10%;
+  cursor: pointer;
+
+  margin: 03px 80px;
+
+  display: flex;
+  border: 5px solid;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  height: 80px;
+  width: 80px;
+}
+
+.heading {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+p {
+  font-weight: bold;
+}
+.question {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(198, 111, 23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(198, 111, 23);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.round {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(198, 111, 23);
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 80px;
+  bottom: 100px;
+}
+.count {
+  color: black;
+  font-size: 30px;
+}
+.buttondata {
+  padding: 10px;
+  background-color: rgb(198, 111, 23);
+}
+@media only screen and (max-width: 600px) {
+  .box {
+    height: 120px;
+    width: 20%;
+    cursor: pointer;
+    margin: 0px 9px;
+    display: flex;
+    border: 5px solid;
+    justify-content: center;
+    align-items: center;
+  }
+  .question {
+    font-size: 49px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box {
+    height: 82px;
+    width: 18%;
+    cursor: pointer;
+    margin: 0px 8px;
+    display: flex;
+    border: 5px solid;
+    justify-content: center;
+    align-items: center;
+  }
+  .question {
+    font-size: 35px;
+  }
+}
